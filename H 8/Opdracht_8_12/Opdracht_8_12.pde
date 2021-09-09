@@ -2,9 +2,9 @@ size(500,500);
 int x=0;
 int y=0;
 
-for(int i=0;i<10;i++){
-  for(int f=0;f<10;f++){
-    if ((f%2==0 && i%2!=0)||(f%2!=0 && i%2==0)){
+for(int i=0;i<8;i++){
+  for(int j=0;j<8;j++){
+    if ((i+j)%2==0){
     fill(0,0,0);
     }else{
       fill(255,255,255);
