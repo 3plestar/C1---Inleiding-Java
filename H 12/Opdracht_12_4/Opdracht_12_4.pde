@@ -1,5 +1,4 @@
 int sec, min, hour, mil, a;
-int i=1000;
 boolean on;
 
 void setup() {
@@ -40,7 +39,7 @@ void draw() {
 void keyPressed() {
   if (keyCode==32 && !on) {
     on=true;
-    mil=0;
+    mil=0; 
     sec=0;
     min=0;
     hour=0;
